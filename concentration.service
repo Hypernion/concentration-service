@@ -1,0 +1,10 @@
+[Unit]
+Description=Improve your Concentration by running it as a service
+Documentation=https://github.com/Hypernion/concentration-service
+
+[Service]
+Type=oneshot
+ExecStart=LOCATION
+
+[Install]
+WantedBy=multi-user.target

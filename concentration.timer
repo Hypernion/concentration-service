@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer for concentration.service
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=10min
+
+[Install]
+WantedBy=concentration.service
