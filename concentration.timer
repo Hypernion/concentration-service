@@ -4,6 +4,7 @@ Description=Timer for concentration.service
 [Timer]
 OnBootSec=1min
 OnUnitActiveSec=10min
+Unit=concentration.service
 
 [Install]
-WantedBy=concentration.service
+WantedBy=default.target
